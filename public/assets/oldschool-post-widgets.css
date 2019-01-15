@@ -1,0 +1,182 @@
+
+/* --  Widgets  -->  Oldschool Popular Post Widget  -->  Sidebar "Oldschool Popular Post Widget"  -- */
+
+.oldschool-popular-post-widget {
+	padding: 6px;
+    border-radius: 4px;
+    background-color: #fff5db;        
+}
+
+ .oldschool-popular-post-widget .oldschool-popular-post-widget__widget-title, .oldschool-popular-post-widget .gamma.widget-title {
+    margin: 0 auto 20px;
+	text-align: center;
+	font: 600 18px/25px 'Montserrat', sans-serif;
+	color: #fff;
+	background-color: #b71c1c;
+	border-top: 1px solid #730b0b;
+	border-bottom: 1px solid #730b0b;
+	text-transform: capitalize;
+	padding: 0;
+}
+
+.oldschool-popular-post-widget .popular-posts-widget__content-grid {
+    position: relative;
+	margin: 10px 0;
+    width: 100%; 
+}
+   
+.oldschool-popular-post-widget .popular-posts-widget__post-counter {
+	display: flex;
+	position: absolute;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+	top: -10px;
+    left: -10px;
+	padding: 0px 5px;
+	z-index: 2;
+    min-width: 20px;
+    height: 20px;		
+    background-color: #000;        
+    border-radius: 50%;
+    color: #fff;        
+    font: 800 15px/25px 'Montserrat', sans-serif;  
+}
+
+ .oldschool-popular-post-widget .popular-posts-widget__link {
+	display: flex;
+    position: relative;
+	width: 100%;
+    height: 69.4px;       
+}
+ 
+.oldschool-popular-post-widget .popular-posts-widget__thumbnail {
+    display: flex;
+	justify-content: center;
+	width: 100%;
+    max-width: 69.4px;		
+    background-color: #fff;        
+    overflow: hidden;        
+}
+
+.oldschool-popular-post-widget .popular-posts-widget__thumbnail-image {
+	width: auto;
+	max-width: 200%;
+	height: 69.4px;	
+	color: #fff;	
+}
+
+ .oldschool-popular-post-widget .popular-posts-widget__thumbnail-image:hover {
+	opacity: 1;
+}
+
+.oldschool-popular-post-widget .popular-posts-widget__title {
+    padding: 0 10px;	
+    width: 100%;
+    text-align: left;
+}
+
+.oldschool-popular-post-widget .popular-posts-widget__title h3 {
+	text-align: left;
+	font: 600 11px/11px 'Montserrat', sans-serif;	
+	color: #111;
+	background: none;
+	border: 0;
+}
+
+.popular-posts-widget__content-grid:hover .popular-posts-widget__link {
+	opacity: 0.7;
+}
+
+.popular-posts-widget__content-grid:hover .popular-posts-widget__post-counter {
+    background-color: #b71c1c;
+}
+  
+
+/* --  Widgets  -->  Oldschool Popular Post Widget  -->  Footer "Oldschool Popular Post Widget"  -- */
+
+footer .oldschool-popular-post-widget {
+	padding: 5px;
+	margin: 20px 0;
+    border-radius: 4px;       
+}
+
+footer .oldschool-popular-post-widget .oldschool-popular-post-widget__widget-title {
+	margin: -5px auto 10px;
+	font: 600 18px/25px 'Montserrat', sans-serif;
+	text-align: center;
+	color: #a0a0a0;
+	text-transform: capitalize;
+}
+
+footer .oldschool-popular-post-widget .popular-posts-widget__content-grid {
+    position: relative;
+	margin: 10px 0;
+    width: 100%; 
+}
+   
+footer .oldschool-popular-post-widget .popular-posts-widget__post-counter {
+	display: flex;
+	position: absolute;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+	top: -10px;
+    left: -10px;
+	padding: 0px 5px;
+	z-index: 2;
+    min-width: 20px;
+    height: 20px;		
+    background-color: #000;        
+    border-radius: 50%;
+    color: #fff;        
+    font: 800 15px/25px 'Montserrat', sans-serif;  
+}
+
+footer .oldschool-popular-post-widget .popular-posts-widget__link {
+	display: flex;
+    position: relative;
+	width: 100%;
+    height: 69.4px;       
+}
+ 
+footer .oldschool-popular-post-widget .popular-posts-widget__thumbnail {
+    display: flex;
+	justify-content: center;
+	width: 100%;
+    max-width: 69.4px;		
+    background-color: #fff;        
+    overflow: hidden;        
+}
+
+footer .oldschool-popular-post-widget .popular-posts-widget__thumbnail-image {
+	width: auto;
+	height: 69.4px;
+	max-width: 200%;
+	color: #fff;	
+}
+
+footer .oldschool-popular-post-widget .popular-posts-widget__thumbnail-image:hover {
+	opacity: 1;
+}
+
+footer .oldschool-popular-post-widget .popular-posts-widget__title {
+    padding: 0 10px;
+    width: 100%;
+    text-align: left;
+}
+
+footer .oldschool-popular-post-widget .popular-posts-widget__title h3 {
+	text-align: left;
+	font: 600 11px/11px 'Montserrat', sans-serif;
+	color: #a0a0a0;
+	background: none;
+	border: 0;
+}
+footer .popular-posts-widget__content-grid:hover .popular-posts-widget__link {
+	opacity: 0.7;
+}
+
+footer .popular-posts-widget__content-grid:hover .popular-posts-widget__post-counter {
+    background-color: #b71c1c;
+}   
